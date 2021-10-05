@@ -1,0 +1,27 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "chat room web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdsbq/Chatter.git"
+  },
+  "author": "sabique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhdsbq/Chatter/issues"
+  },
+  "homepage": "https://github.com/mhdsbq/Chatter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "nodemon": "^2.0.13",
+    "socket.io": "^4.2.0"
+  }
+}
